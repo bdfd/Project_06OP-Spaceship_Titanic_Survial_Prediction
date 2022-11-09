@@ -28,35 +28,49 @@ Common Tag: data-science, python, data-visualization, sql, data-analytics, excel
 
 **Algorithm:** Univariate Linear Regression, Multivariate Linear Regression
 
-**Libraries:** Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn, Execdata  
+**Libraries:** Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn, Execdata
 
 **Projects:** ABC Project Name
 
 **Problem Description**  
-Predict the porfit of startup compnay with folloing fileds
+Welcome to the year 2912, where your data science skills are needed to solve a cosmic mystery. We've received a transmission from four lightyears away and things aren't looking good.
+
+The Spaceship Titanic was an interstellar passenger liner launched a month ago. With almost 13,000 passengers on board, the vessel set out on its maiden voyage transporting emigrants from our solar system to three newly habitable exoplanets orbiting nearby stars.
+
+While rounding Alpha Centauri en route to its first destination—the torrid 55 Cancri E—the unwary Spaceship Titanic collided with a spacetime anomaly hidden within a dust cloud. Sadly, it met a similar fate as its namesake from 1000 years before. Though the ship stayed intact, almost half of the passengers were transported to an alternate dimension!
 
 **Problem Task**  
 Predict the porfit of startup compnay with folloing fileds
 
 **Problem Variables**  
-There are two tables could be merged by ID
+Feature descriptions:
 
-| Field              | Description          | Unit      | dtype               | Comments        |
+PassengerId - A unique Id for each passenger. Each Id takes the form gggg_pp where gggg indicates a group the passenger is travelling with and pp is their number within the group. People in a group are often family members, but not always.
+HomePlanet - The planet the passenger departed from, typically their planet of permanent residence.
+CryoSleep - Indicates whether the passenger elected to be put into suspended animation for the duration of the voyage. Passengers in cryosleep are confined to their cabins.
+Cabin - The cabin number where the passenger is staying. Takes the form deck/num/side, where side can be either P for Port or S for Starboard.
+Destination - The planet the passenger will be debarking to.
+Age - The age of the passenger.
+VIP - Whether the passenger has paid for special VIP service during the voyage.
+RoomService, FoodCourt, ShoppingMall, Spa, VRDeck - Amount the passenger has billed at each of the Spaceship Titanic's many luxury amenities.
+Name - The first and last names of the passenger.
+Transported - Whether the passenger was transported to another dimension. This is the target, the column you are trying to predict.
+| Field | Description | Unit | dtype | Comments |
 | ------------------ | -------------------- | --------- | ------------------- | --------------- |
-| Table 1            | housing.csv          |           | Table Name          | ----------      |
-| Longitude          | Location             |           | Continuous          | ----------      |
-| Latitude           | Location             |           | Continuous          | ----------      |
-| Housing Median Age | Age                  |           | Continuous          | ----------      |
-| Total Rooms        | Total Living Area    |           | Continuous          | ----------      |
-| Total Bedrooms     | Bedroom Area Count   |           | Continuous          | ----------      |
-| Population         | Number of People     |           | Continuous          | ----------      |
-| Households         | Number of Households |           | Continuous          | ----------      |
-| Median Income      | Average Income       |           | Constant            | ----------      |
-| Median House Value | Average House Value  | US Dollar | Binary Category     | Traget Variable |
-| Ocean Proximity    | How Far Near Ocean   |           | Non Binary Category | ----------      |
+| Table 1 | housing.csv | | Table Name | ---------- |
+| Longitude | Location | | Continuous | ---------- |
+| Latitude | Location | | Continuous | ---------- |
+| Housing Median Age | Age | | Continuous | ---------- |
+| Total Rooms | Total Living Area | | Continuous | ---------- |
+| Total Bedrooms | Bedroom Area Count | | Continuous | ---------- |
+| Population | Number of People | | Continuous | ---------- |
+| Households | Number of Households | | Continuous | ---------- |
+| Median Income | Average Income | | Constant | ---------- |
+| Median House Value | Average House Value | US Dollar | Binary Category | Traget Variable |
+| Ocean Proximity | How Far Near Ocean | | Non Binary Category | ---------- |
 
 **Reference:**  
-Resource:<a href="https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction/code?datasetId=426827&sortBy=voteCount"><Resource Name-Kaggle> Kaggle Problem Reference</a>  
+Resource:<a href="https://www.kaggle.com/competitions/spaceship-titanic/overview"><Resource Name-Kaggle> Kaggle-Spaceship Titanic Survial Prediction</a>  
 Dateset:<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/dataset/Salary.csv">Original Dataset.csv</a>  
 Dateset:<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/dataset/Salary.csv">Processed Dataset.csv</a>
 
